@@ -2,13 +2,10 @@
     max-width: 120px;
     margin: 0 90px 0 20px;
 
-    
-
 }
 
 header {
     display: inline-flex;
-    position: fixed;  
     flex-wrap: nowrap; 
 }
 
@@ -19,6 +16,7 @@ nav a {
     border: 5px solid black;
     float: right;
     margin: 30px 10px 0 0;
+    background-color:  #2C9CDB;
        
 }
 nav {
@@ -34,6 +32,7 @@ nav {
 h1 {
     font-family: 'Gloria Hallelujah';
     font-size: 60px;
+    border: 5px solid black;
 }
 
 main {
@@ -42,18 +41,18 @@ main {
 
 .aboutme h2 {
     font-family: 'Indie Flower';
-    font-size: 50px;
+    font-size: 40px;
     color: white;
     margin: 10px;
+    
 }
 .aboutme {
     border: 5px solid #2C9CDB;
     background-color: #2C9CDB;
-    max-width: 500px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    padding:0 20px 20px;
+    padding:0 20px;
     font-family: 'Indie Flower';
     font-size: 25px;
     border-radius: 50px;
@@ -63,4 +62,38 @@ main {
 .profile {
     border-radius: 50%;
     max-width:130px;
+    
 }
+
+.paint {
+display: inline-flex;
+padding-bottom: 20px;
+    
+}
+.container img {
+    max-width: 400px;
+   }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 70px;
+    background-color:white;
+    float: center;
+    top: 0px;
+    padding-bottom: 10px;
+    font-family:'Gloria Hallelujah';
+    border: 5px solid black;
+    font-size: 20px;
+}
+
+caption {
+    font-size: 20px;
+    border: 5px solid black;
+}
+/* Im having a hard time in this part, It doesn't seems to apply
+the style to the caption. The matter of fact the font-family was
+only apply thanks to the code in line 77 */ 
+
+
