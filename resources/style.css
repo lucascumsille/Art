@@ -42,26 +42,34 @@ main {
 .aboutme h2 {
     font-family: 'Indie Flower';
     font-size: 40px;
-    color: white;
+    color: #2C9CDB;
     margin: 10px;
     
 }
 .aboutme {
-    border: 5px solid #2C9CDB;
-    background-color: #2C9CDB;
     position: relative;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     padding:0 20px;
     font-family: 'Indie Flower';
     font-size: 25px;
     border-radius: 50px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: inline-flex;
+    flex-direction: row;
+    
+}
+
+.lucas {
+    display: inline-flex;
+    flex-direction: column;
+    text-align: left;
 }
 
 .profile {
     border-radius: 50%;
     max-width:130px;
+    border: 5px solid black ;
     
 }
 
@@ -96,4 +104,27 @@ caption {
 the style to the caption. The matter of fact the font-family was
 only apply thanks to the code in line 77 */ 
 
+
+footer {
+    display: inline-block;
+    background-color: black;
+    padding: 20px;
+    width:100%;
+    margin-top: 50px;
+    color: white;
+    
+}
+
+.social {
+    max-width: 50px;
+    float: right;
+    margin-right:20px ;
+    
+}
+
+footer p {
+    float: right;
+    font-family: 'Gloria Hallelujah';
+
+}
 
