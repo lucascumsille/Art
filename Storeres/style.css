@@ -1,0 +1,154 @@
+
+/*Content 
+
+HTML
+Header
+Body
+Main
+
+
+*/
+
+
+/*CSS Reset */
+
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+html {
+    max-width: auto
+}
+
+body {
+background-image: url('../Storeres/background.jpg');
+background-repeat: no-repeat;
+
+}
+
+/*Header */
+
+
+header {
+
+    height:auto;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 10px;
+
+}
+
+nav {
+    float: right;
+}
+nav a {
+ 
+    color: black; 
+    border: 2px solid #C31C32;
+    font-family: 'Comfortaa';
+    text-align: left;
+    padding:10px 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-style: none;
+    
+
+}   
+nav a:hover {
+        background-color: #C31C32;
+        color: white;
+        -webkit-transform: scale(1.25);
+        -moz-transform: scale(1.25);
+        position: relative;
+        z-index: 5;
+      }
+
+
+header h1 {
+    color:#C31C32;
+    font-family: 'Indie Flower';
+    padding: 20px;
+    font-size: 70px;
+    margin-top:20px;
+
+}
+
+header h2 {
+    color: black;
+    font-family: 'Comfortaa';
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 500;
+   padding-bottom: 30px;
+   opacity: 0.8;
+
+}
+
+/*Main */
+
+
+
+main img {
+    max-width:320px;
+    margin-bottom: 10px;
+   
+}
+
+.fig {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    margin-bottom: 20px;
+
+    text-align: center;
+    font-family: 'Lobster';
+    background-color: white;
+    padding-bottom: 10px;
+
+    -webkit-transform: rotate(-2deg);
+    -moz-transform: rotate(-2deg);
+    -webkit-transition: -webkit-transform .15s linear;
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+    -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+}
+
+.fig:hover {
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+    -moz-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    position: relative;
+    z-index: 5;
+}
+
+.fig:nth-child(even) {
+-webkit-transform: rotate(2deg);
+-moz-transform: rotate(2deg);
+
+}
+
+.fig:nth-child(even):hover { 
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    position: relative;
+    z-index: 5;
+}
+
+
+.gallery {
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+/* The caption selector doesn't work */
+.fig caption {
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Lobster';
+
+}
